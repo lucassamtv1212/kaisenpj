@@ -1,0 +1,49 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: white;
+  font-family: "JetBrains Mono", sans-serif;
+}
+.secao-destaque, .secao-calendario {
+  background-color: #00005f;
+}
+.secao-conteudo, #rodaper{
+  background-color: #00002a;
+}
+.texto-pricipal{
+  font-size: 22px;
+  font-weight: 800;
+}
+.titulo-pricipal{
+  font-size: 70px;
+  font-weight: 900;
+  padding: 32px 0;
+}
+.paragrafo-padrao{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 32px;
+}
+.texto-superior{
+  font-size: 15px;
+}
+.titulo-segundario{
+  font-size: 43px;
+  padding: 32px 0;
+}
+.texto.terciario {
+  font-size: 31px;
+}
+.paragrafo-menor{
+  font-family: "Montserrat", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+svg {
+  fill: white;
+}
+.secao-calendario, .secao-conteudo, .secao-destaque {
+  padding: 80px;
+}
