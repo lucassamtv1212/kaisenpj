@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-  <title>Primeiro codigo</title>
+  <title>First website</title>
+  <meta nome="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link target="_blank"
     href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
 <body>
+  <dialog class="modal">
+    <header class="cabecalho-modal">
+      <h3 class="texto-terciario">Enrollment</h3>
+      <button class="botao-fechar">X</button>
+    </header>
+    <p class="paragrafo-menor">Keep an eye on your inbox and don't miss this opportunity
+      to learn and develop. See you soon!</p>
+      <input type="text" placeholder="Enter your name" class="input">
+      <input type="email" placeholder="Enter your email" class="input">
+      <button class="botao-incricao">I want to participate!</button>
+  </dialog>
   <main>
     <section class="secao-destaque">
       <span class="texto-pricipal">
-        CONCORRA A BOLSAS DE ESTUDOS
+        APPLY FOR SCHOLARSHIPS
       </span>
-      <h1 class="titulo-pricipal">SAIA DO ZERO NA PROGRAMACAO</h1>
+      <h1 class="titulo-pricipal">GET OUT OF ZERO IN THE PROGRAMMING</h1>
       <P class="paragrafo-padrao">
-        Aprenda a construir do zero um site  e descubra porque milhares de brasileiros estao
-        deixando seus empregos e se tornado programadores com media salarial de mais de R$ 9mil
-        por mes
+        Learn how to build a website from scratch and discover why thousands of Brazilians are
+        leaving their jobs and becoming programmers with an average salary of more than R$9,000
+        one month
       </P>
-      <button>Garantir minha vaga GRATUITA!</button>
+      <button class="botao-xamada">Secure my FREE spot!</button>
     </section>
     <section class="secao-conteudo">
       <span class="texto-superior">
-        CONTEUDO DO CURSO
+        COURSE CONTENT
       </span>
-      <h2 class="titulo-segundario">O QUE EU VOU APRENDER NESSE CURSO?</h2>
+      <h2 class="titulo-segundario">WHAT WILL I LEARN IN THIS COURSE?</h2>
       <P class="paragrafo-padrao">
-        Nesse curso voce vai aprender na pratica, direto da tela do meu computador como <strong>criar do zero um site
-          completo.</strong>
+        In this course you will learn in practice, directly from my computer screen, how to create a website from scratch
+          complete.</strong>
       </P>
-      <p class="paragrafo-padrao"><strong>Vamos te ensinar os principios das tres principais linguagens de programacao do mercado de tecnologia
+      <p class="paragrafo-padrao"><strong>We will teach you the principles of the three main programming languages
+        of the technology market
         </strong></p>
-      <ul>
-        <li>
+      <ul class="lista-cartoes">
+        <li class="cartao">
           <svg aria-hidden="true" class="e-font-icon-svg e-fab-html5" viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg" width="32" heigth="32">
             <path
@@ -40,9 +54,9 @@
             </path>
           </svg>
           <h3 class="texto-terciario">HTML</h3>
-          <p class="paragrafo-menor">HTML organiza o seu site.</p>
+          <p class="paragrafo-menor">HTML organizes your website.</p>
         </li>
-        <li>
+        <li class="cartao">
           <svg aria-hidden="true" class="e-font-icon-svg e-fab-css3-alt" viewBox="0 0 384 512"
             xmlns="http://www.w3.org/2000/svg" width="32" heigth="32">
             <path
@@ -50,9 +64,9 @@
             </path>
           </svg>
           <h3 class="texto-terciario">CSS</h3>
-          <p class="paragrafo-menor">CSS deixa ele mais bonito</p>
+          <p class="paragrafo-menor">CSS makes him more beautiful.</p>
         </li>
-        <li>
+        <li class="cartao">
           <svg aria-hidden="true" class="e-font-icon-svg e-fab-js" viewBox="0 0 448 512"
             xmlns="http://www.w3.org/2000/svg" width="32" heigth="32">
             <path
@@ -60,46 +74,47 @@
             </path>
           </svg>
           <h3 class="texto-terciario">JAVASCRIPT</h3>
-          <p class="paragrafo-menor">javascript traz interatividade</p>
+          <p class="paragrafo-menor">javascript brings interactivity</p>
         </li>
       </ul>
-      <p class="paragrafo-padrao">Com estas habilidades voce nao so sera capaz de criar paginas impressionantes, mas tambem
-        <strong>abrira portas para oportunidades no mundo da tecnologia!</strong>
+      <p class="paragrafo-padrao">With these skills you will not only be able to create stunning pages, but
+        also
+        <strong>opened doors to opportunities in the world of technology!</strong>
       </p>
     </section>
     <section class="secao-calendario">
-      <span class="texto-superior">📅 CALENDARIO DE AULAS</span>
-      <h2 class="titulo-segundario">5 DIAS DE AULAS AO VIVO!</h2>
-      <ul>
-        <li>
-          <h3 class="texto-terciario">Dia #1</h3>
+      <span class="texto-superior">📅 CLASS CALENDAR</span>
+      <h2 class="titulo-segundario">5 LIVE SCHOOL DAYS!</h2>
+      <ul class="lista-cartoes">
+        <li class="cartao">
+          <h3 class="texto-terciario">Day #1</h3>
           <h3 class="texto-terciario">22/01</h3>
-          <p>conseitos basicos de HTML.</p>
+          <p>basic concepts of HTML.</p>
         </li>
-        <li>
-          <h3 class="texto-terciario">Dia #2</h3>
+        <li class="cartao">
+          <h3 class="texto-terciario">Day #2</h3>
           <h3 class="texto-terciario">23/01</h3>
-          <p>Estilizando CSS</p>
+          <p>Style CSS</p>
         </li>
-        <li>
-          <h3 class="texto-terciario">Dia #3</h3>
+        <li class="cartao">
+          <h3 class="texto-terciario">Day #3</h3>
           <h3 class="texto-terciario">24/01</h3>
-          <p>Loyouts Frexiveis com CSS</p>
+          <p>Flexible Layouts with CSS</p>
         </li>
-        <li>
-          <h3 class="texto-terciario">Dia #4</h3>
+        <li class="cartao">
+          <h3 class="texto-terciario">Day #4</h3>
           <h3 class="texto-terciario">25/01</h3>
-          <p>Resposividade com CSS</p>
+          <p>Responsiveness with CSS</p>
         </li>
-        <li>
-          <h3 class="texto-terciario">Dia #5</h3>
+        <li class="cartao">
+          <h3 class="texto-terciario">Day #5</h3>
           <h3 class="texto-terciario">26/01</h3>
-          <p>Publicacao do site</p>
+          <p>Website publication</p>
         </li>
       </ul>
     </section>
   </main>
-  <footer id="rodaper">
+  <footer id="rodape">
     <p class="paragrafo-menor">2024 DEVLUCAS .ALL RIGHTS RESERVED.</p>
   </footer>
 </body>
